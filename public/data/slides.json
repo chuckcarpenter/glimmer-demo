@@ -1,7 +1,18 @@
 {
     "content": [
-        { "title": "First thing", "body": "Consectetur occaecat laborum et nostrud elit laboris officia ex esse."},
-        { "title": "Second thing", "body": "Consectetur occaecat laborum et nostrud elit laboris officia ex esse."},
+        { "title": "Glimmer.js", "body": "Or how I learned to love Ember.js"},
+        { "title": "Part of Ember.js", "body": "The view layer, to be more specific. Now for you're enjoyment."},
+        { "title": "Why Glimmer?", "body": "Easy to learn, because it's just HTML."},
+        { "title": "Small footprint", "body": "Just 33kb, second only to Vue.js"},
+        { "title": "Export to Web Component", "body": "Use it in another project already in progress."},
+        { "title": "Fast!", "body": "Compiles down to byte code, which I understand is a good thing."},
+        { "title": "You can build on it", "body": "Glimmer -> npm install ember/router ember/service ember/data -> Ember"},
+        { "title": "Typescript!!??", "body": "Hotness is good, but since it's a superset you can just write JS."},
+        { "title": "Angle bracket components", "body": "<components> more how we want them."},
+        { "title": "Comes with tooling", "body": "Ember CLI, so we can scaffold, generate, and build."},
+        { "title": "Let's check it out", "body": ""},
+        { "title": "So, Ember", "body": "Ember can be much at first, huge learning curve. Glimmer can be the gateway."},
+        { "title": "Coming soon", "body": "Actual JS support, colocated CSS and tests, and more documentation."},
         { "title": "Thank you.", "body": "Oh god, please no hard questions."}
     ]
 }

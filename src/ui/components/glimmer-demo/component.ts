@@ -15,6 +15,19 @@ export default class GlimmerDemo extends Component {
         this.loadSlides();
     }
 
+    didInsertElement() {
+        const back = this.slideBack.bind(this);
+        const forward = this.slideForward.bind(this);
+
+        window.addEventListener('keyup', (evt) => {
+            if (evt.keyCode === 39) {
+                forward();
+            } else if (evt.keyCode === 37) {
+                back();
+            }
+        });
+    }
+
     loadFirstSlide() {
         if (this.slides) {
             this.title = this.slides[this.index].title;
